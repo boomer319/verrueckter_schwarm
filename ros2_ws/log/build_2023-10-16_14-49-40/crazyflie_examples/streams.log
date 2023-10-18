@@ -1,0 +1,112 @@
+[0.287s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples
+[0.461s] -- The C compiler identification is GNU 11.4.0
+[0.658s] -- The CXX compiler identification is GNU 11.4.0
+[0.675s] -- Detecting C compiler ABI info
+[0.894s] -- Detecting C compiler ABI info - done
+[0.935s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.936s] -- Detecting C compile features
+[0.937s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.349s] -- Detecting CXX compiler ABI info - done
+[1.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.397s] -- Detecting CXX compile features
+[1.398s] -- Detecting CXX compile features - done
+[1.402s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.895s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.047s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.669s] -- Configuring done
+[2.681s] -- Generating done
+[2.690s] -- Build files have been written to: /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples
+[2.707s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples
+[2.708s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples -- -j4 -l4
+[2.867s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[2.939s] Built target ament_cmake_python_symlink_crazyflie_examples
+[3.663s] running egg_info
+[3.665s] creating crazyflie_examples.egg-info
+[3.666s] writing crazyflie_examples.egg-info/PKG-INFO
+[3.667s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[3.668s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[3.669s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[3.670s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.677s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.679s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.752s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[4.550s] running install_scripts
+[4.556s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.557s]   warnings.warn(
+[4.613s] running egg_info
+[4.616s] writing crazyflie_examples.egg-info/PKG-INFO
+[4.617s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[4.618s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[4.619s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[4.624s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[4.627s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[4.630s] Installing cmd_full_state script to scripts
+[4.631s] Installing figure8 script to scripts
+[4.633s] Installing hello_world script to scripts
+[4.633s] Installing multi_trajectory script to scripts
+[4.634s] Installing nice_hover script to scripts
+[4.635s] Installing set_param script to scripts
+[4.725s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[4.795s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples -- -j4 -l4
+[5.031s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples
+[5.053s] -- Install configuration: ""
+[5.058s] -- Execute custom install script
+[5.059s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[5.080s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[5.101s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/PKG-INFO
+[5.120s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/SOURCES.txt
+[5.140s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/dependency_links.txt
+[5.159s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/entry_points.txt
+[5.179s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/top_level.txt
+[5.199s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[5.221s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[5.239s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[5.258s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[5.278s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[5.298s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[5.327s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[5.346s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[5.367s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[5.386s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[5.406s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[5.426s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[5.447s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[5.467s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[5.486s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[5.505s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[5.529s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[5.549s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[5.570s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[5.591s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[5.612s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[5.631s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[5.651s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[5.674s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[5.693s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[5.712s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[5.731s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[5.750s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[5.774s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[5.792s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[5.812s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[5.832s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[5.851s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[5.872s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[5.891s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[5.911s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[5.930s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[5.950s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[5.971s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[5.991s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[6.150s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[6.151s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py'...
+[6.151s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py'...
+[6.151s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[6.151s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[6.151s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py'...
+[6.151s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py'...
+[6.152s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py'...
+[6.152s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py'...
+[6.152s] Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py'...
+[6.167s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples

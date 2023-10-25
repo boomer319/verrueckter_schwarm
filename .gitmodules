@@ -1,0 +1,3 @@
+[submodule "ros2_ws/src/verrueckterschwarm2"]
+	path = ros2_ws/src/verrueckterschwarm2
+	url = https://https://github.com/boomer319/verrueckterschwarm2.git

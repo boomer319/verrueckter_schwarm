@@ -1,0 +1,40 @@
+[0.422s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking -- -j4 -l4
+[0.681s] [35m[1mConsolidate compiler generated dependencies of target quat[0m
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target qualisys_cpp_sdk[0m
+[0.702s] [  8%] Built target quat
+[0.706s] [35m[1mConsolidate compiler generated dependencies of target librigidbodytracker[0m
+[0.737s] [35m[1mConsolidate compiler generated dependencies of target ViconDataStreamSDK_CPP[0m
+[0.801s] [ 16%] Built target qualisys_cpp_sdk
+[0.823s] [35m[1mConsolidate compiler generated dependencies of target vrpn[0m
+[0.957s] [ 62%] Built target vrpn
+[1.071s] [ 66%] Built target librigidbodytracker
+[1.113s] [ 83%] Built target ViconDataStreamSDK_CPP
+[1.230s] [35m[1mConsolidate compiler generated dependencies of target libmotioncapture[0m
+[1.400s] [ 96%] Built target libmotioncapture
+[1.436s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_node[0m
+[1.539s] [100%] Built target motion_capture_tracking_node
+[1.584s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking -- -j4 -l4
+[1.764s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking
+[1.798s] -- Install configuration: ""
+[1.801s] -- Execute custom install script
+[1.802s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[1.803s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[1.804s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[1.805s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[1.806s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[1.807s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[1.808s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[1.809s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[1.810s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[1.810s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[1.811s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[1.812s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[1.813s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[1.814s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[1.815s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[1.815s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[1.835s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[1.836s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[1.837s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[1.838s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[1.850s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking

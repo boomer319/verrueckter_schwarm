@@ -1,0 +1,59 @@
+[1.226s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie -- -j4 -l4
+[1.474s] [  5%] Built target teleop
+[1.474s] [ 30%] Built target crazyflieLinkCpp
+[1.560s] [ 38%] Built target crazyflie_cpp
+[1.709s] [ 44%] Built target crazyflie_server
+[1.775s] [ 50%] Built target scan
+[1.788s] [ 55%] Built target listParams
+[1.805s] [ 61%] Built target listLogVariables
+[1.964s] [ 66%] Built target listMemories
+[1.983s] [ 72%] Built target reboot
+[2.003s] [ 77%] Built target version
+[2.012s] [ 83%] Built target battery
+[2.155s] [ 88%] Built target log
+[2.159s] [ 94%] Built target setParam
+[2.174s] [100%] Built target console
+[2.235s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie -- -j4 -l4
+[2.583s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie
+[2.607s] -- Install configuration: ""
+[2.609s] -- Execute custom install script
+[2.611s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/scan
+[2.616s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+[2.617s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[2.617s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+[2.617s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+[2.617s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/battery
+[2.622s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/version
+[2.623s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/console
+[2.625s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/log
+[2.627s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+[2.628s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+[2.641s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[2.643s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[2.643s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[2.643s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[2.643s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[2.643s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[2.646s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[2.646s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[2.655s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+[2.695s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[2.695s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[2.695s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[2.696s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.xml
+[2.715s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie

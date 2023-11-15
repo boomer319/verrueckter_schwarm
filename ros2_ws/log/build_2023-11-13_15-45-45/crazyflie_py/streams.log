@@ -1,0 +1,20 @@
+[3.225s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/prefix_override:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[4.142s] running develop
+[4.143s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.143s]   warnings.warn(
+[4.146s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.146s]   warnings.warn(
+[4.695s] running egg_info
+[4.696s] writing crazyflie_py.egg-info/PKG-INFO
+[4.696s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[4.696s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[4.697s] writing requirements to crazyflie_py.egg-info/requires.txt
+[4.697s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[4.702s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[4.704s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[4.790s] running build_ext
+[4.791s] Creating /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[4.792s] 
+[4.792s] Installed /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py
+[4.793s] running install_data
+[4.840s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/prefix_override:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/build --no-deps install_data

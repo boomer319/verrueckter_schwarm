@@ -1,0 +1,28 @@
+[0.241s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples -- -j4 -l4
+[0.366s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.370s] Built target ament_cmake_python_symlink_crazyflie_examples
+[0.880s] running egg_info
+[0.882s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.883s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.884s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.884s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.890s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.891s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.937s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[1.015s] running install_scripts
+[1.021s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.022s]   warnings.warn(
+[1.075s] running egg_info
+[1.076s] writing crazyflie_examples.egg-info/PKG-INFO
+[1.076s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[1.077s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[1.077s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[1.080s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.081s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.083s] Installing cmd_full_state script to scripts
+[1.083s] Installing figure8 script to scripts
+[1.084s] Installing hello_world script to scripts
+[1.084s] Installing multi_trajectory script to scripts
+[1.084s] Installing nice_hover script to scripts
+[1.084s] Installing set_param script to scripts
+[1.132s] Built target ament_cmake_python_build_crazyflie_examples_scripts

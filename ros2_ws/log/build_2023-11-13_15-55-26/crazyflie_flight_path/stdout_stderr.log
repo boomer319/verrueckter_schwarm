@@ -1,0 +1,51 @@
+Built target ament_cmake_python_symlink_crazyflie_flight_path
+Built target ament_cmake_python_symlink_crazyflie_flight_path_setup
+running egg_info
+writing crazyflie_flight_path.egg-info/PKG-INFO
+writing dependency_links to crazyflie_flight_path.egg-info/dependency_links.txt
+writing entry points to crazyflie_flight_path.egg-info/entry_points.txt
+writing top-level names to crazyflie_flight_path.egg-info/top_level.txt
+reading manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+running install_scripts
+Built target ament_cmake_python_build_crazyflie_flight_path_egg
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing crazyflie_flight_path.egg-info/PKG-INFO
+writing dependency_links to crazyflie_flight_path.egg-info/dependency_links.txt
+writing entry points to crazyflie_flight_path.egg-info/entry_points.txt
+writing top-level names to crazyflie_flight_path.egg-info/top_level.txt
+reading manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+Installing flight_path script to scripts
+Built target ament_cmake_python_build_crazyflie_flight_path_scripts
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/pythonpath.sh
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/entry_points.txt
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/crazyflie_flight_path//flight_path
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path/__init__.py
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path/flight_path.py
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path//data/figure8.csv
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/package_run_dependencies/crazyflie_flight_path
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/parent_prefix_path/crazyflie_flight_path
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/path.sh
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/path.dsv
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.bash
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.sh
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.zsh
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.dsv
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/package.dsv
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/packages/crazyflie_flight_path
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/cmake/crazyflie_flight_pathConfig.cmake
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/cmake/crazyflie_flight_pathConfig-version.cmake
+-- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/package.xml
+Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path'...

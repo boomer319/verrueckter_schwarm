@@ -1,0 +1,83 @@
+[0.759s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[0.968s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[0.969s] Built target ament_cmake_python_symlink_crazyflie_sim
+[2.286s] running egg_info
+[2.288s] writing crazyflie_sim.egg-info/PKG-INFO
+[2.288s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[2.289s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[2.289s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[2.297s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.299s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.450s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[2.454s] running install_scripts
+[2.459s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.459s]   warnings.warn(
+[2.517s] running egg_info
+[2.519s] writing crazyflie_sim.egg-info/PKG-INFO
+[2.520s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[2.520s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[2.520s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[2.525s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.527s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.530s] Installing crazyflie_server script to scripts
+[2.605s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[2.703s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[2.772s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim
+[2.792s] -- Install configuration: ""
+[2.794s] -- Execute custom install script
+[2.798s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[2.799s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[2.800s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/PKG-INFO
+[2.800s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/SOURCES.txt
+[2.800s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/dependency_links.txt
+[2.800s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/entry_points.txt
+[2.801s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/top_level.txt
+[2.801s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[2.808s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[2.808s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[2.809s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[2.809s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[2.809s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[2.809s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[2.810s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+[2.810s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+[2.810s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+[2.810s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[2.811s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[2.811s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[2.811s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[2.811s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[2.812s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+[2.812s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[2.813s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[2.813s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[2.814s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[2.814s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[2.814s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[2.814s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[2.815s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+[2.815s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[2.815s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+[2.818s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[2.819s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[2.819s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[2.819s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[2.819s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[2.819s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[2.819s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[2.820s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[2.820s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[2.820s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[2.820s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[2.820s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[2.845s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[2.845s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[2.845s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[2.846s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[2.950s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[2.950s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[2.950s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[2.950s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+[2.950s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+[2.951s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+[3.051s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim

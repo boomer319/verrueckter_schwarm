@@ -1,0 +1,414 @@
+[0.230s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces -- -j4 -l4
+[0.391s] [  0%] Built target crazyflie_interfaces__cpp
+[0.406s] [  0%] Built target ament_cmake_python_symlink_crazyflie_interfaces
+[0.428s] [ 12%] Built target crazyflie_interfaces__rosidl_generator_c
+[0.516s] [ 24%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[0.553s] [ 36%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.600s] [ 48%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[0.691s] [ 60%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[0.711s] [ 72%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[0.736s] [ 84%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[0.797s] [ 84%] Built target crazyflie_interfaces
+[0.849s] [ 85%] Built target crazyflie_interfaces__py
+[0.966s] [ 96%] Built target crazyflie_interfaces__rosidl_generator_py
+[1.031s] [ 97%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.044s] [ 98%] Built target crazyflie_interfaces__rosidl_typesupport_c__pyext
+[1.059s] [100%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.180s] running egg_info
+[1.182s] writing crazyflie_interfaces.egg-info/PKG-INFO
+[1.182s] writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+[1.183s] writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+[1.187s] reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[1.193s] writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[1.255s] [100%] Built target ament_cmake_python_build_crazyflie_interfaces_egg
+[1.293s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces -- -j4 -l4
+[2.464s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces
+[2.482s] -- Install configuration: ""
+[2.484s] -- Execute custom install script
+[2.486s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/rosidl_interfaces/crazyflie_interfaces
+[2.488s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__functions.h
+[2.489s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__struct.h
+[2.490s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__type_support.h
+[2.490s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__functions.h
+[2.491s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__struct.h
+[2.491s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__type_support.h
+[2.492s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__functions.h
+[2.492s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__struct.h
+[2.493s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__type_support.h
+[2.493s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__functions.h
+[2.494s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__struct.h
+[2.494s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__type_support.h
+[2.495s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__functions.h
+[2.495s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__struct.h
+[2.496s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__type_support.h
+[2.496s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.h
+[2.496s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.h
+[2.497s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.h
+[2.497s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__functions.h
+[2.497s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__struct.h
+[2.497s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__type_support.h
+[2.497s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/full_state.h
+[2.498s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/hover.h
+[2.498s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_block.h
+[2.499s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_data_generic.h
+[2.499s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/position.h
+[2.499s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.500s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/trajectory_polynomial_piece.h
+[2.500s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/velocity_world.h
+[2.501s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/add_logging.h
+[2.501s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__functions.h
+[2.502s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__struct.h
+[2.502s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__type_support.h
+[2.502s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__functions.h
+[2.503s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__struct.h
+[2.503s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__type_support.h
+[2.504s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__functions.h
+[2.504s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__struct.h
+[2.505s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__type_support.h
+[2.505s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.h
+[2.506s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.h
+[2.506s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.h
+[2.506s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__functions.h
+[2.507s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__struct.h
+[2.507s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__type_support.h
+[2.508s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__functions.h
+[2.508s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__struct.h
+[2.509s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__type_support.h
+[2.509s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__functions.h
+[2.510s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__struct.h
+[2.510s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__type_support.h
+[2.511s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__functions.h
+[2.511s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__struct.h
+[2.511s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__type_support.h
+[2.512s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__functions.h
+[2.512s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__struct.h
+[2.513s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__type_support.h
+[2.513s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__functions.h
+[2.514s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__struct.h
+[2.514s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__type_support.h
+[2.515s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__functions.h
+[2.516s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__struct.h
+[2.516s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.h
+[2.517s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/go_to.h
+[2.517s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/land.h
+[2.518s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/notify_setpoints_stop.h
+[2.518s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/remove_logging.h
+[2.519s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/set_group_mask.h
+[2.519s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/start_trajectory.h
+[2.519s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/stop.h
+[2.520s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/takeoff.h
+[2.520s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/update_params.h
+[2.521s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/upload_trajectory.h
+[2.521s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.sh
+[2.522s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.dsv
+[2.525s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_fastrtps_c.h
+[2.525s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_fastrtps_c.h
+[2.526s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_fastrtps_c.h
+[2.526s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_fastrtps_c.h
+[2.527s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[2.527s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_fastrtps_c.h
+[2.528s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_fastrtps_c.h
+[2.528s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.529s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_fastrtps_c.h
+[2.529s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_fastrtps_c.h
+[2.530s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_fastrtps_c.h
+[2.532s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_fastrtps_c.h
+[2.533s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_fastrtps_c.h
+[2.533s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_fastrtps_c.h
+[2.534s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_c.h
+[2.534s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_c.h
+[2.535s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_fastrtps_c.h
+[2.535s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_fastrtps_c.h
+[2.536s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_fastrtps_c.h
+[2.539s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__builder.hpp
+[2.539s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__struct.hpp
+[2.539s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__traits.hpp
+[2.540s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__builder.hpp
+[2.540s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__struct.hpp
+[2.541s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__traits.hpp
+[2.541s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__builder.hpp
+[2.542s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__struct.hpp
+[2.542s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__traits.hpp
+[2.543s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__builder.hpp
+[2.543s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__struct.hpp
+[2.544s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__traits.hpp
+[2.544s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__builder.hpp
+[2.544s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__struct.hpp
+[2.545s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__traits.hpp
+[2.547s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__builder.hpp
+[2.547s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.hpp
+[2.548s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__traits.hpp
+[2.548s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__builder.hpp
+[2.549s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__struct.hpp
+[2.549s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__traits.hpp
+[2.550s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/full_state.hpp
+[2.550s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/hover.hpp
+[2.551s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_block.hpp
+[2.551s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_data_generic.hpp
+[2.552s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/position.hpp
+[2.552s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/trajectory_polynomial_piece.hpp
+[2.553s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/velocity_world.hpp
+[2.553s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/add_logging.hpp
+[2.554s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__builder.hpp
+[2.554s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__struct.hpp
+[2.554s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__traits.hpp
+[2.555s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__builder.hpp
+[2.555s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__struct.hpp
+[2.556s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__traits.hpp
+[2.556s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__builder.hpp
+[2.557s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__struct.hpp
+[2.557s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__traits.hpp
+[2.558s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__builder.hpp
+[2.558s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.hpp
+[2.559s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__traits.hpp
+[2.559s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__builder.hpp
+[2.560s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__struct.hpp
+[2.560s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__traits.hpp
+[2.560s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__builder.hpp
+[2.561s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__struct.hpp
+[2.561s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__traits.hpp
+[2.562s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__builder.hpp
+[2.562s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__struct.hpp
+[2.563s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__traits.hpp
+[2.563s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__builder.hpp
+[2.564s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__struct.hpp
+[2.564s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__traits.hpp
+[2.565s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__builder.hpp
+[2.565s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__struct.hpp
+[2.566s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__traits.hpp
+[2.566s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__builder.hpp
+[2.566s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__struct.hpp
+[2.567s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__traits.hpp
+[2.567s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__builder.hpp
+[2.568s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__struct.hpp
+[2.568s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__traits.hpp
+[2.569s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/go_to.hpp
+[2.569s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/land.hpp
+[2.570s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/notify_setpoints_stop.hpp
+[2.570s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/remove_logging.hpp
+[2.570s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/set_group_mask.hpp
+[2.571s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/start_trajectory.hpp
+[2.571s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/stop.hpp
+[2.576s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/takeoff.hpp
+[2.583s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/update_params.hpp
+[2.584s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/upload_trajectory.hpp
+[2.594s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.595s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_fastrtps_cpp.hpp
+[2.595s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_fastrtps_cpp.hpp
+[2.597s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.598s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_fastrtps_cpp.hpp
+[2.602s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_fastrtps_cpp.hpp
+[2.603s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.603s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_fastrtps_cpp.hpp
+[2.604s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+[2.604s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_fastrtps_cpp.hpp
+[2.604s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[2.605s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_fastrtps_cpp.hpp
+[2.605s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_fastrtps_cpp.hpp
+[2.605s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[2.606s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_cpp.hpp
+[2.606s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_fastrtps_cpp.hpp
+[2.607s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_fastrtps_cpp.hpp
+[2.607s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[2.608s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_introspection_c.h
+[2.609s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_introspection_c.h
+[2.609s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_introspection_c.h
+[2.609s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_introspection_c.h
+[2.610s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+[2.610s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_introspection_c.h
+[2.610s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_introspection_c.h
+[2.611s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.618s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_introspection_c.h
+[2.618s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_introspection_c.h
+[2.618s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_introspection_c.h
+[2.618s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_introspection_c.h
+[2.619s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_introspection_c.h
+[2.619s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_introspection_c.h
+[2.619s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_introspection_c.h
+[2.620s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_introspection_c.h
+[2.620s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_introspection_c.h
+[2.620s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_introspection_c.h
+[2.621s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_introspection_c.h
+[2.622s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_introspection_cpp.hpp
+[2.623s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_introspection_cpp.hpp
+[2.623s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_introspection_cpp.hpp
+[2.624s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_introspection_cpp.hpp
+[2.624s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[2.624s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_introspection_cpp.hpp
+[2.625s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_introspection_cpp.hpp
+[2.625s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_introspection_cpp.hpp
+[2.625s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+[2.626s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_introspection_cpp.hpp
+[2.626s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_introspection_cpp.hpp
+[2.626s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_introspection_cpp.hpp
+[2.626s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_introspection_cpp.hpp
+[2.627s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[2.633s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_introspection_cpp.hpp
+[2.633s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_introspection_cpp.hpp
+[2.633s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_introspection_cpp.hpp
+[2.633s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[2.634s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.sh
+[2.634s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.dsv
+[2.635s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-2.0.0-py3.10.egg-info/PKG-INFO
+[2.636s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-2.0.0-py3.10.egg-info/SOURCES.txt
+[2.636s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-2.0.0-py3.10.egg-info/dependency_links.txt
+[2.637s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-2.0.0-py3.10.egg-info/top_level.txt
+[2.640s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/__init__.py
+[2.640s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_c.c
+[2.641s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.641s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.641s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.642s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/libcrazyflie_interfaces__rosidl_generator_py.so
+[2.643s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/__init__.py
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_full_state.py
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_full_state_s.c
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_hover.py
+[2.644s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_hover_s.c
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_log_block.py
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_log_block_s.c
+[2.645s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_log_data_generic.py
+[2.646s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_log_data_generic_s.c
+[2.646s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_position.py
+[2.646s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_position_s.c
+[2.649s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece.py
+[2.649s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c
+[2.649s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_velocity_world.py
+[2.650s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_velocity_world_s.c
+[2.650s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/__init__.py
+[2.650s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_add_logging.py
+[2.651s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_add_logging_s.c
+[2.651s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_go_to.py
+[2.652s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_go_to_s.c
+[2.652s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_land.py
+[2.652s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_land_s.c
+[2.653s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_notify_setpoints_stop.py
+[2.653s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c
+[2.653s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_remove_logging.py
+[2.654s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_remove_logging_s.c
+[2.654s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_set_group_mask.py
+[2.654s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_set_group_mask_s.c
+[2.655s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_start_trajectory.py
+[2.655s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_start_trajectory_s.c
+[2.656s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_stop.py
+[2.656s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_stop_s.c
+[2.656s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_takeoff.py
+[2.657s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_takeoff_s.c
+[2.657s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_update_params.py
+[2.657s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_update_params_s.c
+[2.658s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_upload_trajectory.py
+[2.658s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv/_upload_trajectory_s.c
+[2.661s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.661s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.662s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.663s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.idl
+[2.663s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.idl
+[2.664s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.idl
+[2.664s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.idl
+[2.665s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.idl
+[2.665s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.idl
+[2.666s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.idl
+[2.666s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.idl
+[2.667s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.idl
+[2.667s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.idl
+[2.668s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.idl
+[2.668s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.idl
+[2.669s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.idl
+[2.669s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.idl
+[2.670s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.idl
+[2.670s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.idl
+[2.671s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.idl
+[2.683s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.idl
+[2.684s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.msg
+[2.684s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.msg
+[2.685s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.msg
+[2.686s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.msg
+[2.686s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.msg
+[2.687s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.msg
+[2.687s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.msg
+[2.688s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.srv
+[2.688s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo_Request.msg
+[2.689s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo_Response.msg
+[2.689s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.srv
+[2.689s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land_Request.msg
+[2.690s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land_Response.msg
+[2.690s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.srv
+[2.691s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop_Request.msg
+[2.691s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop_Response.msg
+[2.692s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.srv
+[2.692s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask_Request.msg
+[2.693s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask_Response.msg
+[2.693s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.srv
+[2.694s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory_Request.msg
+[2.694s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory_Response.msg
+[2.699s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.srv
+[2.700s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop_Request.msg
+[2.700s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop_Response.msg
+[2.701s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.srv
+[2.701s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff_Request.msg
+[2.702s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff_Response.msg
+[2.702s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.srv
+[2.703s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams_Request.msg
+[2.703s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams_Response.msg
+[2.704s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.srv
+[2.704s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory_Request.msg
+[2.705s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory_Response.msg
+[2.705s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.srv
+[2.705s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging_Request.msg
+[2.706s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging_Response.msg
+[2.706s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.srv
+[2.707s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging_Request.msg
+[2.707s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging_Response.msg
+[2.708s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/package_run_dependencies/crazyflie_interfaces
+[2.708s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/parent_prefix_path/crazyflie_interfaces
+[2.709s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.sh
+[2.709s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.dsv
+[2.710s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.sh
+[2.710s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.dsv
+[2.711s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.bash
+[2.714s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.sh
+[2.714s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.zsh
+[2.714s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.dsv
+[2.716s] -- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv
+[2.737s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/packages/crazyflie_interfaces
+[2.737s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.738s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.738s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.739s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.739s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.740s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.740s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.740s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig.cmake
+[2.741s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig-version.cmake
+[2.741s] -- Up-to-date symlink: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.xml
+[2.742s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_c.so
+[2.743s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.744s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.745s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so
+[2.745s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so
+[2.748s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.749s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so
+[2.880s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces'...
+[2.880s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg'...
+[2.880s] Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/srv'...
+[2.893s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_py.so
+[2.893s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport.cmake
+[2.894s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.894s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.895s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.895s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cppExport.cmake
+[2.896s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.896s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.897s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.897s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.898s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake
+[2.898s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.899s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.899s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.900s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake
+[2.900s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.901s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport.cmake
+[2.901s] -- Up-to-date: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.911s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces

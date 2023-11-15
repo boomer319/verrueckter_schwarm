@@ -1,0 +1,896 @@
+[1.757s] DEBUG:colcon:Command line arguments: ['/home/aurelio/.local/bin/colcon', 'build', '--symlink-install']
+[1.757s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc391c73b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc391c16200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc391c16200>>)
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.838s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurelio/verrueckter_schwarm/ros2_ws'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore_ament_install'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_pkg']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_pkg'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_meta']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_meta'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ros']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ros'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['cmake', 'python']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'cmake'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['python_setup_py']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python_setup_py'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['ignore', 'ignore_ament_install']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'ignore'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'ignore_ament_install'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['colcon_pkg']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'colcon_pkg'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['colcon_meta']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'colcon_meta'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['ros']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'ros'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['cmake', 'python']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'cmake'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'python'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['python_setup_py']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'python_setup_py'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'ignore_ament_install'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['colcon_pkg']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'colcon_pkg'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['colcon_meta']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'colcon_meta'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['ros']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'ros'
+[1.866s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_capture_tracking/motion_capture_tracking' with type 'ros.ament_cmake' and name 'motion_capture_tracking'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ignore'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ignore_ament_install'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['colcon_pkg']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'colcon_pkg'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['colcon_meta']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'colcon_meta'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['ros']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ros'
+[1.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_capture_tracking/motion_capture_tracking_interfaces' with type 'ros.ament_cmake' and name 'motion_capture_tracking_interfaces'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extensions ['ignore', 'ignore_ament_install']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'ignore'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'ignore_ament_install'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extensions ['colcon_pkg']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'colcon_pkg'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extensions ['colcon_meta']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'colcon_meta'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extensions ['ros']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'ros'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extensions ['cmake', 'python']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'cmake'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'python'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extensions ['python_setup_py']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2) by extension 'python_setup_py'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extensions ['ignore', 'ignore_ament_install']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extension 'ignore'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extension 'ignore_ament_install'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extensions ['colcon_pkg']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extension 'colcon_pkg'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extensions ['colcon_meta']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extension 'colcon_meta'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extensions ['ros']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie) by extension 'ros'
+[1.872s] DEBUG:colcon.colcon_core.package_identification:Package 'src/verrueckterschwarm2/crazyflie' with type 'ros.ament_cmake' and name 'crazyflie'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extension 'ignore'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extension 'ignore_ament_install'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extensions ['colcon_pkg']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extension 'colcon_pkg'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extensions ['colcon_meta']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extension 'colcon_meta'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extensions ['ros']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_examples) by extension 'ros'
+[1.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/verrueckterschwarm2/crazyflie_examples' with type 'ros.ament_cmake' and name 'crazyflie_examples'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extension 'ignore_ament_install'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extensions ['colcon_pkg']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extension 'colcon_pkg'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extensions ['colcon_meta']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extension 'colcon_meta'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extensions ['ros']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_flight_path) by extension 'ros'
+[1.875s] DEBUG:colcon.colcon_core.package_identification:Package 'src/verrueckterschwarm2/crazyflie_flight_path' with type 'ros.ament_cmake' and name 'crazyflie_flight_path'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extension 'ignore'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extension 'ignore_ament_install'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extensions ['colcon_pkg']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extension 'colcon_pkg'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extensions ['colcon_meta']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extensions ['ros']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_interfaces) by extension 'ros'
+[1.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/verrueckterschwarm2/crazyflie_interfaces' with type 'ros.ament_cmake' and name 'crazyflie_interfaces'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extensions ['ignore', 'ignore_ament_install']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extension 'ignore'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extension 'ignore_ament_install'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extensions ['colcon_pkg']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extension 'colcon_pkg'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extensions ['colcon_meta']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extension 'colcon_meta'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extensions ['ros']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_py) by extension 'ros'
+[1.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/verrueckterschwarm2/crazyflie_py' with type 'ros.ament_python' and name 'crazyflie_py'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extension 'ignore_ament_install'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extensions ['colcon_pkg']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extension 'colcon_pkg'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extensions ['colcon_meta']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extension 'colcon_meta'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extensions ['ros']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/crazyflie_sim) by extension 'ros'
+[1.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/verrueckterschwarm2/crazyflie_sim' with type 'ros.ament_cmake' and name 'crazyflie_sim'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'ignore_ament_install'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extensions ['colcon_pkg']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'colcon_pkg'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extensions ['colcon_meta']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'colcon_meta'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extensions ['ros']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'ros'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extensions ['cmake', 'python']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'cmake'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'python'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extensions ['python_setup_py']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs) by extension 'python_setup_py'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'ignore'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'ignore_ament_install'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extensions ['colcon_pkg']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'colcon_pkg'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extensions ['colcon_meta']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'colcon_meta'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'ros'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extensions ['cmake', 'python']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'cmake'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'python'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extensions ['python_setup_py']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/generated) by extension 'python_setup_py'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extensions ['ignore', 'ignore_ament_install']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'ignore_ament_install'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extensions ['colcon_pkg']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'colcon_pkg'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extensions ['colcon_meta']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'ros'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extensions ['cmake', 'python']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'cmake'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'python'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extensions ['python_setup_py']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/howto) by extension 'python_setup_py'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'ignore'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extensions ['colcon_pkg']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'colcon_pkg'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extensions ['colcon_meta']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'colcon_meta'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extensions ['ros']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'ros'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extensions ['cmake', 'python']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'cmake'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'python'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extensions ['python_setup_py']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/images) by extension 'python_setup_py'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'ignore'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'ignore_ament_install'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extensions ['colcon_pkg']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'colcon_pkg'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extensions ['colcon_meta']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'colcon_meta'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extensions ['ros']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'ros'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extensions ['cmake', 'python']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'cmake'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'python'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extensions ['python_setup_py']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs/tutorials) by extension 'python_setup_py'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extensions ['ignore', 'ignore_ament_install']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'ignore'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'ignore_ament_install'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extensions ['colcon_pkg']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'colcon_pkg'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extensions ['colcon_meta']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'colcon_meta'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extensions ['ros']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'ros'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extensions ['cmake', 'python']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'cmake'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'python'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extensions ['python_setup_py']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2) by extension 'python_setup_py'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extensions ['ignore', 'ignore_ament_install']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'ignore'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'ignore_ament_install'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extensions ['colcon_pkg']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'colcon_pkg'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extensions ['colcon_meta']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'colcon_meta'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extensions ['ros']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'ros'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extensions ['cmake', 'python']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'cmake'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'python'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extensions ['python_setup_py']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/docs2/images) by extension 'python_setup_py'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extensions ['ignore', 'ignore_ament_install']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'ignore'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'ignore_ament_install'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extensions ['colcon_pkg']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'colcon_pkg'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extensions ['colcon_meta']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'colcon_meta'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extensions ['ros']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'ros'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extensions ['cmake', 'python']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'cmake'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'python'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extensions ['python_setup_py']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/prebuilt) by extension 'python_setup_py'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'ignore'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'ignore_ament_install'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extensions ['colcon_pkg']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'colcon_pkg'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extensions ['colcon_meta']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'colcon_meta'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extensions ['ros']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'ros'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extensions ['cmake', 'python']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'cmake'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'python'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extensions ['python_setup_py']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws) by extension 'python_setup_py'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'ignore'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'ignore_ament_install'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extensions ['colcon_pkg']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'colcon_pkg'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extensions ['colcon_meta']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'colcon_meta'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extensions ['ros']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'ros'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extensions ['cmake', 'python']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'cmake'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'python'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extensions ['python_setup_py']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src) by extension 'python_setup_py'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extensions ['ignore', 'ignore_ament_install']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'ignore_ament_install'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extensions ['colcon_pkg']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'colcon_pkg'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extensions ['colcon_meta']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'colcon_meta'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extensions ['ros']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'ros'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extensions ['cmake', 'python']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'cmake'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'python'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extensions ['python_setup_py']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm) by extension 'python_setup_py'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extensions ['ignore', 'ignore_ament_install']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_pkg']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_pkg'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_meta']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_meta'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extensions ['ros']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'ros'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extensions ['cmake', 'python']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'cmake'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'python'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extensions ['python_setup_py']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/launch) by extension 'python_setup_py'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore_ament_install'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_pkg'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_meta']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_meta'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ros']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'ros'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extensions ['cmake', 'python']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'cmake'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'python'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extensions ['python_setup_py']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts) by extension 'python_setup_py'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ignore', 'ignore_ament_install']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore_ament_install'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_pkg']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_pkg'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_meta']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_meta'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ros']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ros'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['cmake', 'python']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'cmake'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['python_setup_py']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python_setup_py'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ignore', 'ignore_ament_install']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore_ament_install'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_pkg']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_pkg'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_meta']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_meta'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ros']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ros'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['cmake', 'python']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'cmake'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['python_setup_py']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python_setup_py'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ignore', 'ignore_ament_install']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore_ament_install'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_pkg']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_pkg'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_meta']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_meta'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ros']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ros'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['cmake', 'python']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'cmake'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['python_setup_py']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python_setup_py'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ignore', 'ignore_ament_install']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore_ament_install'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_pkg']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_pkg'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_meta']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_meta'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ros']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ros'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['cmake', 'python']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'cmake'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['python_setup_py']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python_setup_py'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ignore', 'ignore_ament_install']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore_ament_install'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_pkg']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_pkg'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_meta']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_meta'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ros']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ros'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['cmake', 'python']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'cmake'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['python_setup_py']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python_setup_py'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ignore', 'ignore_ament_install']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore_ament_install'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_pkg']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_pkg'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_meta']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_meta'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ros']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ros'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['cmake', 'python']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'cmake'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['python_setup_py']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python_setup_py'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ignore', 'ignore_ament_install']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore_ament_install'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_pkg']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_meta'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ros']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ros'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['cmake', 'python']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'cmake'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['python_setup_py']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python_setup_py'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ignore', 'ignore_ament_install']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore_ament_install'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_pkg']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_pkg'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_meta']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_meta'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ros']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ros'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['cmake', 'python']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'cmake'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['python_setup_py']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python_setup_py'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore_ament_install'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_pkg']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_pkg'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_meta']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_meta'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ros']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ros'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['cmake', 'python']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'cmake'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['python_setup_py']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python_setup_py'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ignore', 'ignore_ament_install']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore_ament_install'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_pkg']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_pkg'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_meta']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_meta'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ros']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ros'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['cmake', 'python']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'cmake'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['python_setup_py']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python_setup_py'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ignore', 'ignore_ament_install']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore_ament_install'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_pkg']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_pkg'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_meta']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_meta'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ros']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ros'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['cmake', 'python']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'cmake'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['python_setup_py']
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/verrueckterschwarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python_setup_py'
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.121s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/aurelio/verrueckter_schwarm/ros2_ws/install
+[2.148s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.312s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.340s] DEBUG:colcon.colcon_core.verb:Building package 'motion_capture_tracking_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_args' from command line to 'None'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_target' from command line to 'None'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_clean_cache' from command line to 'False'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_clean_first' from command line to 'False'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_force_configure' from command line to 'False'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'ament_cmake_args' from command line to 'None'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'catkin_cmake_args' from command line to 'None'
+[2.385s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.385s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie', 'symlink_install': True, 'test_result_base': None}
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_args' from command line to 'None'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_target' from command line to 'None'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.418s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_py', 'symlink_install': True, 'test_result_base': None}
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_args' from command line to 'None'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_target' from command line to 'None'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_clean_first' from command line to 'False'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_force_configure' from command line to 'False'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'ament_cmake_args' from command line to 'None'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.447s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_sim', 'symlink_install': True, 'test_result_base': None}
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_args' from command line to 'None'
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_target' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.475s] DEBUG:colcon.colcon_core.verb:Building package 'motion_capture_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking', 'symlink_install': True, 'test_result_base': None}
+[2.503s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_args' from command line to 'None'
+[2.503s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_target' from command line to 'None'
+[2.503s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.503s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[2.504s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_clean_first' from command line to 'False'
+[2.504s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_force_configure' from command line to 'False'
+[2.504s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'ament_cmake_args' from command line to 'None'
+[2.504s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[2.504s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.504s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_examples', 'symlink_install': True, 'test_result_base': None}
+[2.532s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'cmake_args' from command line to 'None'
+[2.532s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'cmake_target' from command line to 'None'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'cmake_clean_cache' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'cmake_clean_first' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'cmake_force_configure' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'ament_cmake_args' from command line to 'None'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'catkin_cmake_args' from command line to 'None'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_flight_path' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.533s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_flight_path' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path', 'merge_install': False, 'path': '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_flight_path', 'symlink_install': True, 'test_result_base': None}
+[2.559s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_interfaces' with build type 'ament_cmake'
+[2.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_interfaces'
+[2.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces' with build type 'ament_cmake'
+[2.700s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces'
+[2.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces -- -j4 -l4
+[2.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces -- -j4 -l4
+[4.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces -- -j4 -l4
+[4.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces -- -j4 -l4
+[4.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces
+[4.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking_interfaces)
+[4.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking_interfaces
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake module files
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake config files
+[4.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'cmake_prefix_path')
+[4.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.ps1'
+[4.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.dsv'
+[4.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.sh'
+[4.518s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib'
+[4.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'ld_library_path_lib')
+[4.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.ps1'
+[4.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.dsv'
+[4.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.sh'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/pkgconfig/motion_capture_tracking_interfaces.pc'
+[4.577s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages'
+[4.577s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[4.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.ps1'
+[4.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv'
+[4.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.sh'
+[4.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.bash'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.zsh'
+[4.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/colcon-core/packages/motion_capture_tracking_interfaces)
+[4.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking_interfaces)
+[4.930s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake module files
+[4.932s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake config files
+[4.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'cmake_prefix_path')
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.ps1'
+[4.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.dsv'
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.sh'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib'
+[4.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'ld_library_path_lib')
+[5.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.ps1'
+[5.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.dsv'
+[5.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.sh'
+[5.002s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[5.002s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/pkgconfig/motion_capture_tracking_interfaces.pc'
+[5.002s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages'
+[5.003s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[5.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.ps1'
+[5.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv'
+[5.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.sh'
+[5.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.bash'
+[5.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.zsh'
+[5.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/share/colcon-core/packages/motion_capture_tracking_interfaces)
+[5.036s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking' with build type 'ament_cmake'
+[5.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking'
+[5.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces
+[5.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking -- -j4 -l4
+[5.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_interfaces)
+[5.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_interfaces
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces' for CMake module files
+[5.610s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces' for CMake config files
+[5.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'cmake_prefix_path')
+[5.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.ps1'
+[5.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.dsv'
+[5.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.sh'
+[5.664s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib'
+[5.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'ld_library_path_lib')
+[5.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.ps1'
+[5.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.dsv'
+[5.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.sh'
+[5.716s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/bin'
+[5.716s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/pkgconfig/crazyflie_interfaces.pc'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages'
+[5.718s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/bin'
+[5.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.ps1'
+[5.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.sh'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.bash'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.zsh'
+[5.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/colcon-core/packages/crazyflie_interfaces)
+[5.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking -- -j4 -l4
+[5.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking
+[6.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking)
+[6.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/motion_capture_tracking
+[6.045s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking' for CMake module files
+[6.046s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking' for CMake config files
+[6.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking', 'cmake_prefix_path')
+[6.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.ps1'
+[6.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.dsv'
+[6.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.sh'
+[6.079s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib'
+[6.079s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/bin'
+[6.079s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib/pkgconfig/motion_capture_tracking.pc'
+[6.080s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib/python3.10/site-packages'
+[6.080s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/bin'
+[6.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.ps1'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.sh'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.bash'
+[6.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.zsh'
+[6.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/colcon-core/packages/motion_capture_tracking)
+[6.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking)
+[6.367s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking' for CMake module files
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking' for CMake config files
+[6.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking', 'cmake_prefix_path')
+[6.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.ps1'
+[6.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.dsv'
+[6.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.sh'
+[6.435s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib'
+[6.435s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/bin'
+[6.436s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib/pkgconfig/motion_capture_tracking.pc'
+[6.437s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/lib/python3.10/site-packages'
+[6.438s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/bin'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.ps1'
+[6.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv'
+[6.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.sh'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.bash'
+[6.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.zsh'
+[6.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking/share/colcon-core/packages/motion_capture_tracking)
+[6.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_interfaces)
+[6.736s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces' for CMake module files
+[6.738s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces' for CMake config files
+[6.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'cmake_prefix_path')
+[6.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.ps1'
+[6.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.dsv'
+[6.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.sh'
+[6.795s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib'
+[6.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'ld_library_path_lib')
+[6.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.ps1'
+[6.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.dsv'
+[6.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.sh'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/bin'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/pkgconfig/crazyflie_interfaces.pc'
+[6.856s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/bin'
+[6.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.ps1'
+[6.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv'
+[6.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.sh'
+[6.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.bash'
+[6.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.zsh'
+[6.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/share/colcon-core/packages/crazyflie_interfaces)
+[6.910s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_py' with build type 'ament_python'
+[6.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'ament_prefix_path')
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.ps1'
+[6.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.dsv'
+[6.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.sh'
+[7.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie' with build type 'ament_cmake'
+[7.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie'
+[7.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_sim' with build type 'ament_cmake'
+[7.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_sim'
+[7.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.355s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_py'
+[8.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie -- -j4 -l4
+[8.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[9.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie -- -j4 -l4
+[9.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie
+[9.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie)
+[9.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie
+[10.032s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie' for CMake module files
+[10.033s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie' for CMake config files
+[10.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie', 'cmake_prefix_path')
+[10.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.ps1'
+[10.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.dsv'
+[10.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.sh'
+[10.086s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib'
+[10.086s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/bin'
+[10.086s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/pkgconfig/crazyflie.pc'
+[10.087s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/python3.10/site-packages'
+[10.087s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/bin'
+[10.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.ps1'
+[10.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv'
+[10.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.sh'
+[10.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.bash'
+[10.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.zsh'
+[10.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/colcon-core/packages/crazyflie)
+[10.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[10.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/prefix_override:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[10.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim
+[10.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie)
+[10.405s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie' for CMake module files
+[10.407s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie' for CMake config files
+[10.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie', 'cmake_prefix_path')
+[10.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.ps1'
+[10.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.dsv'
+[10.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.sh'
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib'
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/bin'
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/pkgconfig/crazyflie.pc'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/lib/python3.10/site-packages'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/bin'
+[10.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.ps1'
+[10.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv'
+[10.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.sh'
+[10.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.bash'
+[10.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/crazyflie/package.zsh'
+[10.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie/share/colcon-core/packages/crazyflie)
+[10.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_sim)
+[10.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim
+[10.598s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim' for CMake module files
+[10.600s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim' for CMake config files
+[10.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'cmake_prefix_path')
+[10.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.ps1'
+[10.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.dsv'
+[10.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.sh'
+[10.657s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib'
+[10.658s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/bin'
+[10.658s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib/pkgconfig/crazyflie_sim.pc'
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages'
+[10.660s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/bin'
+[10.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.ps1'
+[10.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv'
+[10.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.sh'
+[10.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.bash'
+[10.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.zsh'
+[10.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/colcon-core/packages/crazyflie_sim)
+[10.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_sim)
+[10.851s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim' for CMake module files
+[10.852s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim' for CMake config files
+[10.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'cmake_prefix_path')
+[10.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.ps1'
+[10.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.dsv'
+[10.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.sh'
+[10.894s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib'
+[10.894s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/bin'
+[10.895s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib/pkgconfig/crazyflie_sim.pc'
+[10.895s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages'
+[10.896s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/bin'
+[10.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.ps1'
+[10.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv'
+[10.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.sh'
+[10.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.bash'
+[10.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.zsh'
+[10.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/share/colcon-core/packages/crazyflie_sim)
+[11.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'pythonpath_develop')
+[11.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/prefix_override:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[11.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.ps1'
+[11.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.dsv'
+[11.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.sh'
+[11.849s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py' for CMake module files
+[11.850s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py' for CMake config files
+[11.852s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib'
+[11.852s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/bin'
+[11.852s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/pkgconfig/crazyflie_py.pc'
+[11.853s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages'
+[11.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'pythonpath')
+[11.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.ps1'
+[11.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.dsv'
+[11.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.sh'
+[11.893s] Level 1:colcon.colcon_core.environment:checking '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/bin'
+[11.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_py)
+[11.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.ps1'
+[11.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.dsv'
+[11.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.sh'
+[11.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.bash'
+[11.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.zsh'
+[11.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/share/colcon-core/packages/crazyflie_py)
+[11.924s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_examples' with build type 'ament_cmake'
+[11.925s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_examples'
+[11.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.043s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_flight_path' with build type 'ament_cmake'
+[12.044s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_flight_path'
+[12.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_examples -- -j4 -l4
+[12.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_flight_path -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path
+[12.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path' returned '1': AMENT_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/lib:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_py:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_flight_path -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path
+[13.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'argument of type 'NoneType' is not iterable'
+[13.128s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.166s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.190s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/local_setup.ps1'
+[13.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelio/verrueckter_schwarm/ros2_ws/install/_local_setup_util_ps1.py'
+[13.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/setup.ps1'
+[13.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/local_setup.sh'
+[13.256s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelio/verrueckter_schwarm/ros2_ws/install/_local_setup_util_sh.py'
+[13.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/setup.sh'
+[13.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/local_setup.bash'
+[13.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/setup.bash'
+[13.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/local_setup.zsh'
+[13.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelio/verrueckter_schwarm/ros2_ws/install/setup.zsh'

@@ -1,0 +1,28 @@
+[2.830s] Invoking command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path': PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path/prefix_override:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path/build --no-deps install_data
+[3.665s] running develop
+[3.668s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.668s]   warnings.warn(
+[3.672s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.672s]   warnings.warn(
+[4.375s] running egg_info
+[4.376s] creating crazyflie_flight_path.egg-info
+[4.377s] writing crazyflie_flight_path.egg-info/PKG-INFO
+[4.377s] writing dependency_links to crazyflie_flight_path.egg-info/dependency_links.txt
+[4.381s] writing entry points to crazyflie_flight_path.egg-info/entry_points.txt
+[4.381s] writing requirements to crazyflie_flight_path.egg-info/requires.txt
+[4.381s] writing top-level names to crazyflie_flight_path.egg-info/top_level.txt
+[4.382s] writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+[4.382s] reading manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+[4.383s] writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+[4.546s] running build_ext
+[4.547s] Creating /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages/crazyflie-flight-path.egg-link (link to .)
+[4.549s] Installing flight_path script to /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/crazyflie_flight_path
+[4.549s] 
+[4.550s] Installed /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path
+[4.550s] running install_data
+[4.550s] creating /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index
+[4.550s] creating /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index
+[4.551s] creating /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/packages
+[4.551s] copying resource/crazyflie_flight_path -> /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/packages
+[4.551s] copying package.xml -> /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path
+[4.768s] Invoked command in '/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path' returned '0': PYTHONPATH=/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path/prefix_override:/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path/build --no-deps install_data

@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_flight_path
+Built target ament_cmake_python_symlink_crazyflie_flight_path_setup
+Built target ament_cmake_python_symlink_crazyflie_flight_path
+running install_scripts
+running egg_info
+creating crazyflie_flight_path.egg-info
+writing crazyflie_flight_path.egg-info/PKG-INFO
+writing dependency_links to crazyflie_flight_path.egg-info/dependency_links.txt
+writing top-level names to crazyflie_flight_path.egg-info/top_level.txt
+writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+reading manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_crazyflie_flight_path_scripts
+running egg_info
+writing crazyflie_flight_path.egg-info/PKG-INFO
+writing dependency_links to crazyflie_flight_path.egg-info/dependency_links.txt
+writing top-level names to crazyflie_flight_path.egg-info/top_level.txt
+reading manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_flight_path.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_crazyflie_flight_path_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/pythonpath.sh
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/pythonpath.dsv
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path/__init__.py
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path/flight_path.py
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/package_run_dependencies/crazyflie_flight_path
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/parent_prefix_path/crazyflie_flight_path
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/ament_prefix_path.sh
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/path.sh
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/environment/path.dsv
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.bash
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.sh
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.zsh
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/local_setup.dsv
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/package.dsv
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/ament_index/resource_index/packages/crazyflie_flight_path
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/cmake/crazyflie_flight_pathConfig.cmake
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/cmake/crazyflie_flight_pathConfig-version.cmake
+-- Symlinking: /home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/share/crazyflie_flight_path/package.xml
+Listing '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path'...
+Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path/__init__.py'...
+Compiling '/home/aurelio/verrueckter_schwarm/ros2_ws/install/crazyflie_flight_path/local/lib/python3.10/dist-packages/crazyflie_flight_path/flight_path.py'...

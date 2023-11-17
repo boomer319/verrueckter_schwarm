@@ -1,1 +1,0 @@
-/home/aurelio/verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_flight_path/crazyflie_flight_path/waypoint_mission_goTo_colAv.py

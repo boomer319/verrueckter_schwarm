@@ -22,3 +22,6 @@
 	path = crazyflie-firmware
 	url = https://github.com/boomer319/crazyflie-firmware
 
+[submodule "uav_trajectories"]
+	path = uav_trajectories
+	url = https://github.com/boomer319/uav_trajectories

@@ -22,4 +22,7 @@
 	path = crazyflie-firmware
 	url = https://github.com/boomer319/crazyflie-firmware
 
+[submodule "verrueckterschwarm2"]
+	path = ros2_ws/src/verrueckterschwarm2
+	url = https://github.com/boomer319/crazyflie-firmware
 

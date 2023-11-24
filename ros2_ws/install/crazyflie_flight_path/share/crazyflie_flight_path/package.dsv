@@ -1,8 +1,0 @@
-source;share/crazyflie_flight_path/hook/cmake_prefix_path.ps1
-source;share/crazyflie_flight_path/hook/cmake_prefix_path.dsv
-source;share/crazyflie_flight_path/hook/cmake_prefix_path.sh
-source;share/crazyflie_flight_path/local_setup.bash
-source;share/crazyflie_flight_path/local_setup.dsv
-source;share/crazyflie_flight_path/local_setup.ps1
-source;share/crazyflie_flight_path/local_setup.sh
-source;share/crazyflie_flight_path/local_setup.zsh

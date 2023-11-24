@@ -1,1 +1,0 @@
-/home/aurelio/verrueckter_schwarm/ros2_ws/build/crazyflie_sim/ament_cmake_core/crazyflie_simConfig.cmake

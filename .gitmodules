@@ -4,7 +4,7 @@
 
 [submodule "nanoflownet_flussnetz"]
 	path = nanoflownet_flussnetz
-	url = https://github.com/tudelft/nanoflownet
+	url = https://github.com/boomer319/nanoflownet_flussnetz
 
 [submodule "gap_sdk"]
 	path = gap_sdk

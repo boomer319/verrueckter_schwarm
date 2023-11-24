@@ -18,3 +18,8 @@
 	path = NatNetSDKCrossplatform
 	url = https://github.com/whoenig/NatNetSDKCrossplatform
 
+[submodule "crazyflie-firmware"]
+	path = crazyflie-firmware
+	url = https://github.com/boomer319/crazyflie-firmware
+
+

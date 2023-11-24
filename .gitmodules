@@ -5,3 +5,16 @@
 [submodule "nanoflownet_flussnetz"]
 	path = nanoflownet_flussnetz
 	url = https://github.com/tudelft/nanoflownet
+
+[submodule "gap_sdk"]
+	path = gap_sdk
+	url = https://github.com/GreenWaves-Technologies/gap_sdk
+
+[submodule "crazyradio-firmware"]
+	path = crazyradio-firmware
+	url =  https://github.com/bitcraze/crazyradio-firmware
+
+[submodule "gap_sdk"]
+	path = crazyradio-firmware
+	url =
+

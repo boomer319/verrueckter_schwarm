@@ -1,3 +1,7 @@
 [submodule "uav_trajectories"]
 	path = uav_trajectories
 	url = https://github.com/whoenig/uav_trajectories
+
+[submodule "nanoflownet_flussnetz"]
+	path = nanoflownet_flussnetz
+	url = https://github.com/tudelft/nanoflownet

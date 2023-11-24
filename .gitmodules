@@ -14,7 +14,7 @@
 	path = crazyradio-firmware
 	url =  https://github.com/bitcraze/crazyradio-firmware
 
-[submodule "gap_sdk"]
-	path = crazyradio-firmware
-	url =
+[submodule "NatNetSDKCrossplatform"]
+	path = NatNetSDKCrossplatform
+	url = https://github.com/whoenig/NatNetSDKCrossplatform
 

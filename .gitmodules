@@ -29,3 +29,7 @@
 [submodule "uav_trajectories"]
 	path = uav_trajectories
 	url = https://github.com/boomer319/uav_trajectories
+
+[submodule "ros2_ws/src/verrueckterschwarm2"]
+	path = ros2_ws/src/verrueckterschwarm2
+	url = https://github.com/boomer319/verrueckterschwarm2

@@ -10,8 +10,8 @@
 	path = gap_sdk
 	url = https://github.com/GreenWaves-Technologies/gap_sdk
 
-[submodule "gap_sdk"]
-	path = gap_sdk
+[submodule "gap_riscv_toolchain_ubuntu"]
+	path = gap_riscv_toolchain_ubuntu
 	url = https://github.com/GreenWaves-Technologies/gap_riscv_toolchain_ubuntu
 
 [submodule "crazyradio-firmware"]

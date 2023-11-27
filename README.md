@@ -51,7 +51,7 @@ ros2 run crazyflie_examples hello_world # separate terminal
 ```
 ros2 run crazyflie_waypoint_mission goTo # separate terminal
 ```
-## Python env
+## python env
 - https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
 ```
 source ~/environments/cf/bin/activate # enter python environment

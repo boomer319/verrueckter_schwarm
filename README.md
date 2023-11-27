@@ -31,6 +31,7 @@ ifconfig # find out the IP address of your device
 ```
 ping IP-Address # test wether data transfer to specified IP works as quickly as intended
 ```
+
 ## drone movement/control/interaction
 ```
 cfclient
@@ -51,6 +52,7 @@ ros2 run crazyflie_examples hello_world # separate terminal
 ```
 ros2 run crazyflie_waypoint_mission goTo # separate terminal
 ```
+
 ## python env
 - https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
 ```
@@ -112,7 +114,6 @@ cfclient
 - changing the radio adresses in order to use one instead of two radios(https://forum.bitcraze.io/viewtopic.php?t=5325)
 
 ## set up crazyswarm2
-
 ### set up ros2 humble
 
 - https://docs.ros.org/en/humble/Installation.html
@@ -126,26 +127,23 @@ cfclient
     cd ros2_ws/src
     git clone --branch ros2 --recursive https://github.com/IMRCLab/motion_capture_tracking.git
 
-### set up MoCap System and Motive Software
+### set up config of crazyswarm2
+- https://imrclab.github.io/crazyswarm2/usage.html
 
-#### general setup
+### use the crazyswarm2 sim
+- download the crazyflie firmware (https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#cloning)
+- go through these steps (https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#build-python-bindings)
+- start the sim (https://imrclab.github.io/crazyswarm2/usage.html#simulation)
+
+## set up MoCap System and Motive Software
+### general setup
 - In order for the motion capture streaming service "NatNet" to send data to the PC you are running the crazyswarm server from, you have to have them both in the same newtork or directly linked through an ethernet switch.
 - A wifi router can be used as a switch too. Simply plug everything into the yellow ethernet ports.
 
-#### Motive Streaming Settings
+### Motive Streaming Settings
 - enable
 - local interface: use the IP address of the PC running Motive
     - the third group of numbers of the IP has to be the same as for the receiving machine 192.168.XYZ.103 (this group should correspond for all devices on the given router)
 - Multicast
 - turn on only labeled and unlabeled marker streaming, turn off the streaming of other things, e.g. Rigid Bodies. Crazyswarm2 only needs the pointcloud of said markers.
 - The rest can be left as seen on the screenshot NatNetSettings.png
-
-### set up config of crazyswarm2
-
-- https://imrclab.github.io/crazyswarm2/usage.html
-
-### use the crazyswarm2 sim
-
-- download the crazyflie firmware (https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#cloning)
-- go through these steps (https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#build-python-bindings)
-- start the sim (https://imrclab.github.io/crazyswarm2/usage.html#simulation)

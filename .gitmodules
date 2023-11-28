@@ -1,3 +1,11 @@
+[submodule "ai_deck/aideck-gap8-bootloader"]
+	path = ai_deck/aideck-gap8-bootloader
+	url = https://github.com/bitcraze/aideck-gap8-bootloader
+
+[submodule "ai_deck/aideck-gap8-examples"]
+	path = ai_deck/aideck-gap8-examples
+	url = https://github.com/bitcraze/aideck-gap8-examples
+
 [submodule "uav_trajectories"]
 	path = uav_trajectories
 	url = https://github.com/whoenig/uav_trajectories

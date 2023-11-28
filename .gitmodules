@@ -4,7 +4,7 @@
 
 [submodule "ai_deck/aideck-gap8-examples"]
 	path = ai_deck/aideck-gap8-examples
-	url = https://github.com/bitcraze/aideck-gap8-examples
+	url = https://github.com/boomer319/aideck-gap8-examples
 
 [submodule "uav_trajectories"]
 	path = uav_trajectories

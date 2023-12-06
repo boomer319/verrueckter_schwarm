@@ -90,6 +90,27 @@ You can add an alias in your .bashrc. This way you dont need to type the command
 ```
 alias cf='source ~/environments/cf/bin/activate'
 ```
+## lines added to my .bashrc
+
+```
+# ROS
+source /opt/ros/humble/setup.bash # source ros
+alias cs2='cd ~/verrueckter_schwarm/ros2_ws && source install/local_setup.bash' # source ros workspace
+alias chooser='ros2 run crazyflie chooser.py' # makes it easy to read the battery voltage, restart crazyflies, select and deselect them. the alternative to selecting them in chooser.py would be to manually go to crazyflies.yaml and type true and false for each crazyflie.
+
+# MoCap
+alias NatNet='~/verrueckter_schwarm/NatNetSDKCrossplatform/build/sampleClient' # launching the sampleClient to see whether your PC receives the MoCap data thats streamed by NatNet.
+
+# Python
+alias cf='source ~/environments/cf/bin/activate' # Environment for working with the crazyflie
+alias cf_py2='source ~/environments/cf_py2/bin/activate' # Environment for working with the crazyflie but python2
+alias cfai='source ~/environments/cfai/bin/activate' # Environment for following the classification example with the ai deck
+alias gap='source ~/environments/gap/bin/activate' # Environment for working with the GAP8 chip
+
+# GAP
+alias GAP_SDK='gap && source ~/verrueckter_schwarm/gap_sdk/sourceme.sh' # sourcing the chip configuration for working with the GapSDK
+alias JTAG='export GAPY_OPENOCD_CABLE=~/verrueckter_schwarm/gap_sdk/utils/gap8-openocd/tcl/interface/ftdi/olimex-arm-usb-tiny-h.cfg' # needed whenever you are working with the JTAG debugger
+```
 
 # getting started from scratch
 

@@ -1,6 +1,8 @@
 # cloning this git
 
+```
 git clone --recurse-subodules https://github.com/boomer319/verrueckter_schwarm.git
+```
 
 # crazyflie configuration
 
@@ -15,7 +17,7 @@ The crazyflies have a number on their belly. The number corresponds to the last 
 - radio://0/80/2M/0xE7E7E7E707 for cf07
 - radio://1/100/2M/0xE7E7E7E708 for cf08
 
-0 and 1 in ...//0/... are the id of the radio that shall be used
+0 and 1 in ...//0/... are the ids of the radio that shall be used
 
 80 and 100 are the channels
 

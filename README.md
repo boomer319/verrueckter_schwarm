@@ -153,7 +153,7 @@ cfclient
 
 used for:
 
-- **changing the radio adresses on each drone in order to use a different amount of radios**(https://forum.bitcraze.io/viewtopic.php?t=5325)
+- [**changing the radio adresses on each drone in order to use a different amount of radios**](https://forum.bitcraze.io/viewtopic.php?t=5325)
 - updating the software on each crazyflie idivdually
 - connecting xbox or ps controller to your pc to control the drone (can be done through an android app too)
 - monitoring the battery voltage
@@ -184,9 +184,9 @@ https://imrclab.github.io/crazyswarm2/usage.html
 
 This can be used to test your scripts before running them with the drones in real life. Depending on the power you have available this might run slow.
 
-- download the crazyflie firmware (https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#cloning)
-- go through these steps (https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#build-python-bindings)
-- start the sim (https://imrclab.github.io/crazyswarm2/usage.html#simulation)
+- [download the crazyflie firmware](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#cloning)
+- [go through these steps](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#build-python-bindings)
+- [start the sim](https://imrclab.github.io/crazyswarm2/usage.html#simulation)
 
 ## set up MoCap System and Motive Software
 

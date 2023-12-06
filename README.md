@@ -56,11 +56,12 @@ export PYTHONPATH=~/verrueckter_schwarm/crazyflie-firmware/build:$PYTHONPATH # n
 ros2 launch crazyflie launch.py backend:=sim # starting simulated server
 ```
 ```
-ros2 run crazyflie_examples hello_world # separate terminal
+ros2 run crazyflie_examples hello_world # in separate terminal
 ```
 ```
-ros2 run crazyflie_waypoint_mission goTo # separate terminal
+ros2 run crazyflie_waypoint_mission goTo # in separate terminal
 ```
+**The main waypoint mission script can be found in verrueckter_schwarm/ros2_ws/src/verrueckterschwarm2/crazyflie_waypoint_mission/crazyflie_waypoint_mission/goTo.py. It is intended to make the drones go to points in space while maintaining their respective positions in the swarm and always having the cameras face the direction of flight. This was done to give the crazyflies the ability to avoid obstacles in later parts of the project.**
 
 ## python env
 

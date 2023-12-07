@@ -224,3 +224,187 @@ In order for the motion capture streaming service "NatNet" to send data to the P
 - Multicast
 - turn on only labeled and unlabeled marker streaming, turn off the streaming of other things, e.g. Rigid Bodies. Crazyswarm2 only needs the pointcloud of said markers.
 - The rest can be left as seen on the screenshot NatNetSettings.png
+
+# Bookmarks
+
+### Python
+
+[How To Install Python 3 and Set Up a Programming Environment on an Ubuntu 20.04 Server | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
+
+[Solve Python error: subprocess-exited-with-error | bobbyhadz](https://bobbyhadz.com/blog/python-note-this-error-originates-from-subprocess)
+
+[How to Add Python to PATH – Real Python](https://realpython.com/add-python-to-path/#how-to-add-python-to-path-on-linux-and-macos)
+
+### Git
+
+[Git - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
+[Git - Make local HEAD the new master - Stack Overflow](https://stackoverflow.com/questions/26891904/git-make-local-head-the-new-master)
+
+[git - How to push changes to github without pull - Stack Overflow](https://stackoverflow.com/questions/19303962/how-to-push-changes-to-github-without-pull)
+
+### ROS2 Humble
+
+[Ubuntu (Debian packages) — ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+
+[Tutorials — ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/Tutorials.html)
+
+### Sim
+
+[Gazebo - Docs: Binary Ubuntu Install](https://gazebosim.org/docs/fortress/install_ubuntu)
+
+[Gazebo Spin Motors | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-simulation/main/user_guides/gazebo_spin_motors/)
+
+[Configuration — Crazyswarm 0.3 documentation](https://crazyswarm.readthedocs.io/en/latest/configuration.html#configure-external-tracking-system)
+
+[Tutorials — Crazyswarm 0.3 documentation](https://crazyswarm.readthedocs.io/en/latest/tutorials/tutorials.html#tutorial-hover)
+
+### crazyswarm2
+
+### NatNet
+
+[NatNet SDK - EXTERNAL OptiTrack Documentation](https://docs.optitrack.com/developer-tools/natnet-sdk)
+
+[whoenig/NatNetSDKCrossplatform: Crossplatform version of the OptiTrack NatNet SDK](https://github.com/whoenig/NatNetSDKCrossplatform)
+
+[Crazyswarm2: A ROS 2 testbed for Aerial Robot Teams — Crazyswarm2 1.0a1 documentation](https://imrclab.github.io/crazyswarm2/index.html)
+
+[IMRCLab/crazyswarm2: A Large Quadcopter Swarm](https://github.com/IMRCLab/crazyswarm2)
+
+[IMRCLab/libmotioncapture: Interface Abstraction for Motion Capture System APIs such as VICON or OptiTrack](https://github.com/IMRCLab/libmotioncapture)
+
+[Optitrack to Crazyflie Set up - Bitcraze Forums](https://forum.bitcraze.io/viewtopic.php?t=4173)
+
+[libmotioncapture/examples/python.py at main · IMRCLab/libmotioncapture](https://github.com/IMRCLab/libmotioncapture/blob/main/examples/python.py)
+
+[Optitrack · IMRCLab/crazyswarm2 · Discussion #286](https://github.com/IMRCLab/crazyswarm2/discussions/286)
+
+[Settings: Streaming - EXTERNAL OptiTrack Documentation](https://docs.optitrack.com/motive-ui-panes/settings/settings-streaming)
+
+[Crazyswarm2 development | Bitcraze](https://www.bitcraze.io/2022/10/crazyswarm2-development/)
+
+[Frequently Asked Questions — Crazyswarm2 1.0a1 documentation](https://imrclab.github.io/crazyswarm2/faq.html#how-do-crazyswarm2-and-crazyswarm-differ)
+
+[How does crazyswarm2 process data? What are the outputs to crazyflies? Documentation on the inner workings and data flow. · IMRCLab/crazyswarm2 · Discussion #338](https://github.com/IMRCLab/crazyswarm2/discussions/338)
+
+[Building and Flashing | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#build-python-bindings)
+
+[Collision avoidance by jpreiss · Pull Request #628 · bitcraze/crazyflie-firmware](https://github.com/bitcraze/crazyflie-firmware/pull/628)
+
+[whoenig/uav\_trajectories: Helper scripts and programs for trajectories](https://github.com/whoenig/uav_trajectories)
+
+[crazyswarm/ros\_ws/src/crazyswarm/scripts/backgroundComputation.py at master · USC-ACTLab/crazyswarm](https://github.com/USC-ACTLab/crazyswarm/blob/master/ros_ws/src/crazyswarm/scripts/backgroundComputation.py)
+
+### cf client setup
+
+[Installation Instructions | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/installation/install/)
+
+[USB permissions | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+
+### step-by-step tutorials
+
+[Step-by-Step: Connecting, logging and parameters | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_connect_log_param/)
+
+[Step-by-Step: Motion Commander | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_motion_commander/)
+
+### bitcraze discussions
+
+[bitcraze · Discussions · GitHub](https://github.com/orgs/bitcraze/discussions)
+
+[crazyflie 2.1 > custom firmware > xyz.bin generating out of custom .config · bitcraze · Discussion #936](https://github.com/orgs/bitcraze/discussions/936)
+
+[AI deck cannot be flashed with wifi example (old bootloader, flashing freezes) · bitcraze · Discussion #942](https://github.com/orgs/bitcraze/discussions/942)
+
+### AI deck
+
+[Releases · bitcraze/aideck-gap8-examples](https://github.com/bitcraze/aideck-gap8-examples/releases)
+
+[Getting started with the AI deck | Bitcraze](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/)
+
+[WiFi Video Streamer | Bitcraze](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/simple-examples/wifi-streamer/)
+
+[Flashing | Bitcraze](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/infrastructure/flashing/)
+
+[Classification Demo | Bitcraze](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/ai-examples/classification-demo/)
+
+[AI deck 1.1 | Bitcraze](https://www.bitcraze.io/products/ai-deck/)
+
+[PULP-DroNet: open source and open hardware artificial intelligence for fully autonomous navigation on Crazyflie | Bitcraze](https://www.bitcraze.io/2019/05/pulp-dronet-open-source-and-open-hardware-artificial-intelligence-for-fully-autonomous-navigation-on-crazyflie/)
+
+[AI-deck Workshop 1 - YouTube](https://www.youtube.com/watch?v=o9asYPHxEB4)
+
+[Deep Learning](https://www.deeplearningbook.org/)
+
+[STM-GAP8 CPX communication Example | Bitcraze](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/other-examples/stm_gap8_cpx/)
+
+### NanoFlowNet
+
+[Obstacle Avoidance AI-deck | Bitcraze](https://www.bitcraze.io/tag/ai-deck/)
+
+[2209.06918.pdf](https://arxiv.org/pdf/2209.06918.pdf)
+
+[tudelft/nanoflownet: Code and trained networks of the paper "NanoFlowNet: Real-time Dense Optical Flow on a Nano Quadcopter"](https://github.com/tudelft/nanoflownet)
+
+[semantic segmentation CNN STDC-Seg](https://www.mdpi.com/1424-8220/23/14/6514)
+
+[UAVid Semantic Segmentation Dataset](https://uavid.nl/)
+
+[\[1504.06852\] FlowNet: Learning Optical Flow with Convolutional Networks](https://arxiv.org/abs/1504.06852)
+
+[FlowNet: Learning Optical Flow with Convolutional Networks - YouTube](https://www.youtube.com/watch?v=k_wkDLJ8lJE)
+
+### GAP8
+
+[GreenWaves-Technologies/gap\_sdk: SDK for Greenwaves Technologies' GAP8 IoT Application Processor](https://github.com/GreenWaves-Technologies/gap_sdk)
+
+[PowerPoint Presentation](https://cms.tinyml.org/wp-content/uploads/talks2020/tinyML_Talks_Manuele_Rusci_201027.pdf)
+
+[Machine Learning on GAP8 for tiny devices - YouTube](https://www.youtube.com/watch?v=12s16Ex11EU)
+
+[gap\_sdk/tools/nntool/README.md at master · GreenWaves-Technologies/gap\_sdk](https://github.com/GreenWaves-Technologies/gap_sdk/blob/master/tools/nntool/README.md)
+
+[gap\_sdk/tools/nntool at master · GreenWaves-Technologies/gap\_sdk](https://github.com/GreenWaves-Technologies/gap_sdk/tree/master/tools/nntool)
+
+[GreenWaves-Technologies/gap\_sdk at release-v4.8.0](https://github.com/GreenWaves-Technologies/gap_sdk/tree/release-v4.8.0#getting-started-with-the-gap-sdk)
+
+### crazyradio PA
+
+[Build and flash radio | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/building/building_flashing/)
+
+[USB and Radio protocol of the Crazyradio dongle | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/functional-areas/usb_radio_protocol/)
+
+### crazyflie-firmware
+
+[crazyflie-firmware](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/)
+
+[CPX - Crazyflie Packet eXchange | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/)
+
+[index \[Bitcraze Wiki\]](https://wiki.bitcraze.io/)
+
+[Bitcraze](https://github.com/bitcraze)
+
+[Bitcraze - Crazyflie 101 EPFL-LIS lecture - part 2 (2020) - YouTube](https://www.youtube.com/watch?v=BXjSgCwb_bM)
+
+[Guest Lecture at EPFL Aerial Robotics Course 2020 | Bitcraze](https://www.bitcraze.io/about/events/epfl2020/)
+
+[Helping drone swarms avoid obstacles without hitting each other - EPFL](https://actu.epfl.ch/news/helping-drone-swarms-avoid-obstacles-without-hitti/)
+
+[Crazyflie](https://robots.ros.org/crazyflie/)
+
+[crazyflie API](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/api/cflib/crazyflie/)
+
+[Tutorials | Bitcraze](https://www.bitcraze.io/documentation/tutorials/)
+
+[User guides | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/)
+
+[Crazyflie Summer Project with ROS2 and Mapping | Bitcraze](https://www.bitcraze.io/2022/07/crazyflie-summer-project-with-ros2-and-mapping/)
+
+[Motion Capture positioning | Bitcraze](https://www.bitcraze.io/documentation/system/positioning/mocap-positioning/)
+
+[Customize firmware with kbuild | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/development/kbuild/)
+
+[Building and Flashing | Bitcraze](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#flashing)
+
+[Install Docker Engine on Ubuntu | Docker Docs](https://docs.docker.com/engine/install/ubuntu/)
+
+[Mellinger and PID controllers - Bitcraze Forums](https://forum.bitcraze.io/viewtopic.php?t=4826)

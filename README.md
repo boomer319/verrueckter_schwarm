@@ -1,4 +1,4 @@
-# cloning this git
+# cloning this git repo
 
 ```
 git clone --recurse-subodules https://github.com/boomer319/verrueckter_schwarm.git

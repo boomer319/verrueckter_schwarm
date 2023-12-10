@@ -3,3 +3,6 @@
 /ros2_ws/install/
 /ros2_ws/cache/
 /ros2_ws/src/motion_capture_tracking/
+.vscode/*
+ros2_ws/log3375487317.csv
+ros2_ws/params51380503.csv

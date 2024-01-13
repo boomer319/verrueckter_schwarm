@@ -76,7 +76,8 @@ A python environment was made for:
 - working with the crazyflie in general (e.g. starting cfclient)
 - following the [ai deck classification example](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/ai-examples/classification-demo/)
 - working with the GapSDK
-- Tutorial: https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
+
+Tutorial: https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
 
 ```
 source ~/environments/cf/bin/activate # enter python environment
